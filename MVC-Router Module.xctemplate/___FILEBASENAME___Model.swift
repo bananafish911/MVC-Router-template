@@ -5,7 +5,7 @@ protocol ___VARIABLE_ModuleName___ModelView: class {
 }
 
 protocol ___VARIABLE_ModuleName___Model {
-    var view: ___VARIABLE_ModuleName___View? { get }
+    var view: ___VARIABLE_ModuleName___ModelView? { get }
 }
 
 // MARK: - Default

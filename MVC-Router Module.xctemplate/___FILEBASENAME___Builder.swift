@@ -30,7 +30,7 @@ class ___VARIABLE_ModuleName___DefaultBuilder: Builder<___VARIABLE_ModuleName___
     }
 
     func build() -> ___VARIABLE_ModuleName___ViewController {
-        let controller = ___VARIABLE_ModuleName___Controller()
+        let controller = ___VARIABLE_ModuleName___ViewController()
         controller.model = ___VARIABLE_ModuleName___DefaultModel()
         controller.router = ___VARIABLE_ModuleName___DefaultRouter()
         return controller
